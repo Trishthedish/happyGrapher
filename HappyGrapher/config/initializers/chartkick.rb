@@ -1,4 +1,8 @@
 Chartkick.options = {
-  height: "400px",
-  colors: ["#b00", "#666"]
+  height: "300px",
+  colors: ["#b4ff69", "#666"],
+  label: "Points",
+  # these labels didn't work.
+  # xTitle: "Time",
+  # yTitle: "Population"
 }
