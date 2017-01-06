@@ -4,7 +4,13 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
-
+# suggested by tutorial:
+  # that greatly simplifies fetching information about existing countries.
+gem 'countries'
+# generate various texts from fake name
+gem 'faker'
+# the entire reason for doing this tutorial
+gem 'chartkick'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
